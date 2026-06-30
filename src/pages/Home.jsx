@@ -66,7 +66,7 @@ export default function Home() {
               playsInline
               className="w-full h-auto aspect-video object-cover"
             >
-              <source src="/music/video1.mp4" type="video/mp4" />
+              <source src="public/videos/video1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
