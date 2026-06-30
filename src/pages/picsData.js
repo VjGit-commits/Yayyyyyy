@@ -29,7 +29,7 @@ export const MEMORY_PICTURES = [
     id: 4,
     title: "Fictional Romance 💖✨",
     description: "She loves hiding behind her books and blushing over her fictional book boyfriends... but let's be real for a second. They might be written perfectly, but they aren't actually here to hold her hand, make her laugh, or love her as deeply as I do. Real-world romance wins every single time!",
-    imageUrl: "/src/pages/fictional.jpeg", // 👈 This will pull your local 'fictional.jpg' file from your public folder!
+    imageUrl: "public/images/fictional.jpeg", // 👈 This will pull your local 'fictional.jpg' file from your public folder!
     date: "Daydreaming Level 100",
     rotation: "rotate-3 hover:rotate-0"
   }
