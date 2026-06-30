@@ -59,19 +59,18 @@ export default function Home() {
         <div className="w-full max-w-4xl bg-white/[0.03] backdrop-blur-xl rounded-[2rem] p-4 md:p-6 shadow-[0_0_50px_rgba(0,0,0,0.8)] border border-white/10 transition-all duration-500 hover:border-pink-500/40 hover:shadow-[0_0_50px_rgba(244,63,94,0.2)]">
           <div className="rounded-2xl overflow-hidden shadow-inner bg-black">
             <video
-              autoPlay
-              muted
-              loop
-              controls
-              playsInline
-              className="w-full h-auto aspect-video object-cover"
-            >
-               <source
-  src={`${import.meta.env.BASE_URL}videos/video1.mp4`}
-  type="video/mp4"
-/>
-              Your browser does not support the video tag.
-            </video>
+            autoPlay
+            muted
+            loop
+            controls
+            playsInline
+            className="w-full h-auto aspect-video object-cover"
+          >
+            <source
+              src={`${import.meta.env.BASE_URL}videos/video1.mp4`}
+              type="video/mp4"
+            />
+          </video>
           </div>
         </div>
 
